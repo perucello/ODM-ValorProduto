@@ -154,7 +154,7 @@
                     </Action>
                     <Action DefId="A1">
                       <Expression>
-                        <Param><![CDATA[-9999]]></Param>
+                        <Param><![CDATA[-999,99]]></Param>
                       </Expression>
                     </Action>
                   </ActionSet>

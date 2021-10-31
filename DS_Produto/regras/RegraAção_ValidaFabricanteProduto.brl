@@ -4,7 +4,7 @@
   <uuid>5ac3943e-7721-4ab9-8baa-deea253fb2ee</uuid>
   <locale>pt_BR</locale>
   <definition><![CDATA[se 
-	o fabricante produto de requestProduto não é o fabricante produto de requestProduto 
+	o fabricante produto de requestProduto é o fabricante produto de requestProduto 
 então 
 	atribuir o valor produto de responseProduto a o valor produto de responseProduto ; 
 	atribuir o status de responseProduto a  o status de responseProduto ;  	
@@ -12,10 +12,7 @@ então
 	Apresentar "Fabricante do Produto: " + o fabricante produto de requestProduto ;  
 	Apresentar "Status:  " + o status de responseProduto ;  
 senão 
-	atribuir o valor produto de responseProduto a o valor produto de responseProduto ; 
-	atribuir o status de responseProduto a  o status de responseProduto ;  	
 	Apresentar "------------ Valida Fabricante Produto ----------------------"; 
-	Apresentar "Status:  " + o status de responseProduto ;  
 	Apresentar "Produto nao encontrado...";
  
 

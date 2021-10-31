@@ -12,10 +12,7 @@ então
 	Apresentar "Nome do Produto: " + o nome produto de requestProduto ; 
 	Apresentar "Status:  " + o status de responseProduto ;  
 senão 
-	atribuir o valor produto de responseProduto a o valor produto de responseProduto ; 
-	atribuir o status de responseProduto a  o status de responseProduto ;  	
 	Apresentar "------------ Valida Nome Produto ----------------------"; 
-	Apresentar "Status:  " + o status de responseProduto ;  
 	Apresentar "Produto nao encontrado...";
  
 

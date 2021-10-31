@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="operacaoDecisaoProduto" usingRuleflow="true" ruleflowName="FluxoDeRegra_2" targetRuleProjectName="DS_Produto">
+  <name>operacaoDecisaoProduto</name>
+  <uuid>806f9081-9d33-4197-9ca3-d7ed14f99f57</uuid>
+  <referencedVariables variableName="requestProduto" variableSetName="variaveis">
+    <variableSet href="../regras/variaveis.var#44384f17-8c9d-4c29-be4e-8df3a72b9786"/>
+  </referencedVariables>
+  <referencedVariables variableName="responseProduto" variableSetName="variaveis" direction="OUT">
+    <variableSet href="../regras/variaveis.var#44384f17-8c9d-4c29-be4e-8df3a72b9786"/>
+  </referencedVariables>
+  <ruleflow href="../regras/FluxoDeRegra_2.rfl#8e11ce31-2b29-42e9-9e25-5ae88f14df7c"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="operacaoDecisaoProduto_extractor" validator="Validador Padrão"/>
+  <targetRuleProject href="../../DS_Produto#cd9e7ec3-9c14-432c-9108-921bc108502e"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

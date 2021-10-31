@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>FluxoDeRegra_2</name>
+  <uuid>8e11ce31-2b29-42e9-9e25-5ae88f14df7c</uuid>
+  <locale>pt_BR</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Tabela de Dados" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="83060059-0895-4bea-8a34-0c8acd47ab4d"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Valida Nome Produto" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Valida Descrição Produto" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="56e43cf3-974e-4684-9b6e-4f9253d5bdc8"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Valida Fabricante do Produto" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="5ac3943e-7721-4ab9-8baa-deea253fb2ee"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_3"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_0"/>
+      <TaskNode Identifier="node_1" Task="Tabela de Dados"/>
+      <TaskNode Identifier="node_2" Task="Valida Nome Produto"/>
+      <TaskNode Identifier="node_3" Task="task_3"/>
+      <TaskNode Identifier="node_5" Task="Valida Descrição Produto"/>
+      <TaskNode Identifier="node_6" Task="Valida Fabricante do Produto"/>
+      <ForkNode Identifier="node_7"/>
+      <JoinNode Identifier="node_8"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_0" Source="node_0" Target="node_1"/>
+      <Transition Identifier="transition_1" Source="node_1" Target="node_7"/>
+      <Transition Identifier="transition_2" Source="node_7" Target="node_2"/>
+      <Transition Identifier="transition_3" Source="node_7" Target="node_5"/>
+      <Transition Identifier="transition_4" Source="node_7" Target="node_6"/>
+      <Transition Identifier="transition_5" Source="node_2" Target="node_8"/>
+      <Transition Identifier="transition_6" Source="node_5" Target="node_8"/>
+      <Transition Identifier="transition_7" Source="node_6" Target="node_8"/>
+      <Transition Identifier="transition_8" Source="node_8" Target="node_3"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="pt_BR">
+      <Data Name="node_2#height">68.103516</Data>
+      <Data Name="node_1#height">68.103516</Data>
+      <Data Name="node_3#height">21.0</Data>
+      <Data Name="node_0#height">21.0</Data>
+      <Data Name="node_7#y">194.10352</Data>
+      <Data Name="node_8#x">208.0</Data>
+      <Data Name="node_8#y">386.9082</Data>
+      <Data Name="node_5#name">node_1</Data>
+      <Data Name="node_2#name">node_1</Data>
+      <Data Name="node_5#height">68.103516</Data>
+      <Data Name="node_6#height">82.80469</Data>
+      <Data Name="node_7#height">10.0</Data>
+      <Data Name="node_7#width">100.0</Data>
+      <Data Name="node_8#height">10.0</Data>
+      <Data Name="node_2#width">102.0</Data>
+      <Data Name="node_0#width">21.0</Data>
+      <Data Name="node_3#y">452.4082</Data>
+      <Data Name="node_5#x">208.0</Data>
+      <Data Name="node_5#y">290.50586</Data>
+      <Data Name="node_6#x">51.0</Data>
+      <Data Name="node_5#width">102.0</Data>
+      <Data Name="node_6#y">290.50586</Data>
+      <Data Name="node_7#x">208.0</Data>
+      <Data Name="node_0#x">208.0</Data>
+      <Data Name="node_0#y">10.5</Data>
+      <Data Name="node_1#x">208.0</Data>
+      <Data Name="node_8#name">node_7</Data>
+      <Data Name="node_1#y">105.05176</Data>
+      <Data Name="node_2#x">365.0</Data>
+      <Data Name="node_2#y">290.50586</Data>
+      <Data Name="node_3#x">208.0</Data>
+      <Data Name="node_1#name">node_1</Data>
+      <Data Name="node_3#width">20.99999</Data>
+      <Data Name="node_8#width">100.0</Data>
+      <Data Name="node_7#name">node_7</Data>
+      <Data Name="node_1#width">102.0</Data>
+      <Data Name="node_6#name">node_1</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="node_6#width">102.0</Data>
+      <Data Name="node_3#name">node_2</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>
