@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;DS_Produto/regras/RegaAção.brl&apos; to &apos;RegraAção.brl&apos;" description="Rename resource &apos;RegaAção.brl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="regras/RegaAção.brl" name="RegraAção.brl" stamp="1635703842340" updateReferences="true"/>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DS_Produto/regras/RegaAção.brl&apos; to &apos;RegraAção.brl&apos;" description="Rename resource &apos;RegaAção.brl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="regras/RegaAção.brl" name="RegraAção.brl" stamp="1635703842340" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DS_Produto/regras/RegraAção_nao_encontrado.brl&apos; to &apos;RegraAção_ValidaNomeProduto.brl&apos;" description="Rename resource &apos;RegraAção_nao_encontrado.brl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="regras/RegraAção_nao_encontrado.brl" name="RegraAção_ValidaNomeProduto.brl" stamp="1635716895757" updateReferences="true"/>
 </session>

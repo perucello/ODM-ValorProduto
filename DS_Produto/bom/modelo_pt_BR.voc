@@ -1,5 +1,12 @@
 # Vocabulary Properties
-uuid = 3f52e812-e626-4931-914f-4572ace71d12
+uuid = 0a705b2e-b835-4244-82ed-962149c5c6a9
+
+# com.educaciencia.odm.ExcecaoProduto
+com.educaciencia.odm.ExcecaoProduto#concept.label = excecao produto
+com.educaciencia.odm.ExcecaoProduto.garantiaProduto#phrase.action = atribuir o garantia produto {this,PARTITIVE_ARTICLE} a {garantia produto}
+com.educaciencia.odm.ExcecaoProduto.garantiaProduto#phrase.navigation = {garantia produto} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.ExcecaoProduto.valorProduto#phrase.action = atribuir o valor produto {this,PARTITIVE_ARTICLE} a {valor produto}
+com.educaciencia.odm.ExcecaoProduto.valorProduto#phrase.navigation = {valor produto} {this,PARTITIVE_ARTICLE}
 
 # com.educaciencia.odm.RequestProduto
 com.educaciencia.odm.RequestProduto#concept.label = request produto
@@ -12,7 +19,7 @@ com.educaciencia.odm.RequestProduto.nomeProduto#phrase.navigation = {nome produt
 
 # com.educaciencia.odm.ResponseProduto
 com.educaciencia.odm.ResponseProduto#concept.label = response produto
-com.educaciencia.odm.ResponseProduto.garantiaProduto#phrase.action = atribuir o garantia produto {this,PARTITIVE_ARTICLE} a {garantia produto}
-com.educaciencia.odm.ResponseProduto.garantiaProduto#phrase.navigation = {garantia produto} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.ResponseProduto.status#phrase.action = atribuir o status {this,PARTITIVE_ARTICLE} a {status}
+com.educaciencia.odm.ResponseProduto.status#phrase.navigation = {status} {this,PARTITIVE_ARTICLE}
 com.educaciencia.odm.ResponseProduto.valorProduto#phrase.action = atribuir o valor produto {this,PARTITIVE_ARTICLE} a {valor produto}
 com.educaciencia.odm.ResponseProduto.valorProduto#phrase.navigation = {valor produto} {this,PARTITIVE_ARTICLE}

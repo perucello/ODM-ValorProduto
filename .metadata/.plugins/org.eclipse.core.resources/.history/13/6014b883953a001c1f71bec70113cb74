@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>RegraAção_ValidaDescricaoProduto</name>
+  <uuid>56e43cf3-974e-4684-9b6e-4f9253d5bdc8</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	o descricao produto de requestProduto não é o descricao produto de requestProduto 
+então 
+	atribuir o valor produto de responseProduto a o valor produto de responseProduto ; 
+	atribuir o status de responseProduto a  o status de responseProduto ;  	
+	Apresentar "------------ Valida Descrição Produto ----------------------"; 
+	Apresentar "Descrição do Produto: " + o descricao produto de requestProduto ;  
+	Apresentar "Status:  " + o status de responseProduto ;  
+senão 
+	atribuir o valor produto de responseProduto a o valor produto de responseProduto ; 
+	atribuir o status de responseProduto a  o status de responseProduto ;  	
+	Apresentar "------------ Valida Descrição Produto ----------------------"; 
+	Apresentar "Status:  " + o status de responseProduto ;  
+	Apresentar "Produto nao encontrado...";
+ 
+
+	    
+	    ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

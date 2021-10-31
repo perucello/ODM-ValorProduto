@@ -331,3 +331,507 @@ javax.swing.text.BadLocationException: Invalid end offset
 
 !ENTRY ilog.rules.studio.shared 1 1 2021-10-31 15:11:39.535
 !MESSAGE Variável de caminho de classe inicializada ILOG_BR_STUDIO_HOME com valor 'C:/Users/Usuario/eclipse/eclipse-standard-luna-SR2-win32-x86_64/eclipse/studio'.
+!SESSION 2021-10-31 18:23:02.210 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_212-3-redhat
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.help.base 4 0 2021-10-31 18:23:34.716
+!MESSAGE Internal error while reading TOC contents from remote server
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 3; O tipo de elemento hr" deve ser encerrado pela tag final correspondente "</hr>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteTocParser.parse(RemoteTocParser.java:34)
+	at org.eclipse.help.internal.base.remote.RemoteTocProvider.getTocContributions(RemoteTocProvider.java:103)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.HelpSystem.getTocs(HelpSystem.java:71)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.searchKeywordTopic(IlrOpenDocumentationAction.java:105)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.access$0(IlrOpenDocumentationAction.java:104)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:98)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.help.base 4 0 2021-10-31 18:23:35.929
+!MESSAGE Internal error while reading topic extensions from remote server
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 3; O tipo de elemento hr" deve ser encerrado pela tag final correspondente "</hr>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteExtensionProvider.getContentExtensions(RemoteExtensionProvider.java:66)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.loadExtensions(ContentExtensionManager.java:100)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.getExtensions(ContentExtensionManager.java:68)
+	at org.eclipse.help.internal.dynamic.ExtensionResolver.resolveExtension(ExtensionResolver.java:61)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handleExtension(ExtensionHandler.java:62)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handle(ExtensionHandler.java:43)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:44)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.toc.TocAssembler.process(TocAssembler.java:250)
+	at org.eclipse.help.internal.toc.TocAssembler.access$1(TocAssembler.java:230)
+	at org.eclipse.help.internal.toc.TocAssembler$LinkHandler.handle(TocAssembler.java:361)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:44)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.toc.TocAssembler.process(TocAssembler.java:250)
+	at org.eclipse.help.internal.toc.TocAssembler.assemble(TocAssembler.java:79)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:309)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.HelpSystem.getTocs(HelpSystem.java:71)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.searchKeywordTopic(IlrOpenDocumentationAction.java:105)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.access$0(IlrOpenDocumentationAction.java:104)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:98)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-10-31 18:23:49.660
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Usuario'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY ilog.rules.studio.shared 1 1 2021-10-31 18:26:21.407
+!MESSAGE Variável de caminho de classe inicializada ILOG_BR_STUDIO_HOME com valor 'C:/Users/Usuario/eclipse/eclipse-standard-luna-SR2-win32-x86_64/eclipse/studio'.
+
+!ENTRY ilog.rules.studio.model.dt 4 4 2021-10-31 18:45:13.850
+!MESSAGE DT: exception raised by DT text editor
+!STACK 0
+javax.swing.text.BadLocationException: Invalid end offset
+	at javax.swing.text.DefaultHighlighter.addHighlight(DefaultHighlighter.java:121)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextHighlighter.addHighlight(IlrBRLAWTTextHighlighter.java:242)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextHighlighter.addErrorHighlight(IlrBRLAWTTextHighlighter.java:233)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextEditor$7.run(IlrBRLAWTTextEditor.java:413)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at ilog.rules.ui.dialog.IlrJFaceDialogHook.show(IlrJFaceDialogHook.java:68)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTableViewController$DTDecisionTableActionController.editActionColumn(IlrDTDecisionTableViewController.java:1091)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTableViewController$DTDecisionTableActionController.editActionColumn(IlrDTDecisionTableViewController.java:1099)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTable.editColumnAction(IlrDTDecisionTable.java:1184)
+	at ilog.rules.dtable.ui.swing.IlrDTGenericTable$GenericTableHeader.performAction(IlrDTGenericTable.java:123)
+	at ilog.rules.ui.tabletree.swing.IlrTableHeaderUI$MouseActionHandler.mouseClicked(IlrTableHeaderUI.java:119)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:269)
+	at java.awt.Component.processMouseEvent(Component.java:6542)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+!ENTRY ilog.rules.studio.model.dt 4 4 2021-10-31 18:45:13.974
+!MESSAGE DT: exception raised by DT text editor
+!STACK 0
+javax.swing.text.BadLocationException: Invalid end offset
+	at javax.swing.text.DefaultHighlighter.addHighlight(DefaultHighlighter.java:121)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextHighlighter.addHighlight(IlrBRLAWTTextHighlighter.java:242)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextHighlighter.addErrorHighlight(IlrBRLAWTTextHighlighter.java:233)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextEditor$7.run(IlrBRLAWTTextEditor.java:413)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at ilog.rules.ui.dialog.IlrJFaceDialogHook.show(IlrJFaceDialogHook.java:68)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTableViewController$DTDecisionTableActionController.editActionColumn(IlrDTDecisionTableViewController.java:1091)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTableViewController$DTDecisionTableActionController.editActionColumn(IlrDTDecisionTableViewController.java:1099)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTable.editColumnAction(IlrDTDecisionTable.java:1184)
+	at ilog.rules.dtable.ui.swing.IlrDTGenericTable$GenericTableHeader.performAction(IlrDTGenericTable.java:123)
+	at ilog.rules.ui.tabletree.swing.IlrTableHeaderUI$MouseActionHandler.mouseClicked(IlrTableHeaderUI.java:119)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:269)
+	at java.awt.Component.processMouseEvent(Component.java:6542)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+!ENTRY ilog.rules.studio.model.dt 4 4 2021-10-31 18:45:26.119
+!MESSAGE DT: exception raised by DT text editor
+!STACK 0
+javax.swing.text.BadLocationException: Invalid end offset
+	at javax.swing.text.DefaultHighlighter.addHighlight(DefaultHighlighter.java:121)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextHighlighter.addHighlight(IlrBRLAWTTextHighlighter.java:242)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextHighlighter.addErrorHighlight(IlrBRLAWTTextHighlighter.java:233)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextEditor$7.run(IlrBRLAWTTextEditor.java:413)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+!ENTRY ilog.rules.studio.model.dt 4 4 2021-10-31 18:58:37.019
+!MESSAGE DT: exception raised by DT text editor
+!STACK 0
+javax.swing.text.BadLocationException: Invalid end offset
+	at javax.swing.text.DefaultHighlighter.addHighlight(DefaultHighlighter.java:121)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextHighlighter.addHighlight(IlrBRLAWTTextHighlighter.java:242)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextHighlighter.addErrorHighlight(IlrBRLAWTTextHighlighter.java:233)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextEditor$7.run(IlrBRLAWTTextEditor.java:413)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at ilog.rules.ui.dialog.IlrJFaceDialogHook.show(IlrJFaceDialogHook.java:68)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTableViewController$DTDecisionTableActionController.editActionColumn(IlrDTDecisionTableViewController.java:1091)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTableViewController$DTDecisionTableActionController.editActionColumn(IlrDTDecisionTableViewController.java:1099)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTable.editColumnAction(IlrDTDecisionTable.java:1184)
+	at ilog.rules.dtable.ui.swing.IlrDTGenericTable$GenericTableHeader.performAction(IlrDTGenericTable.java:123)
+	at ilog.rules.ui.tabletree.swing.IlrTableHeaderUI$MouseActionHandler.mouseClicked(IlrTableHeaderUI.java:119)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:269)
+	at java.awt.Component.processMouseEvent(Component.java:6542)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+!ENTRY ilog.rules.studio.model.dt 4 4 2021-10-31 18:58:37.229
+!MESSAGE DT: exception raised by DT text editor
+!STACK 0
+javax.swing.text.BadLocationException: Invalid end offset
+	at javax.swing.text.DefaultHighlighter.addHighlight(DefaultHighlighter.java:121)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextHighlighter.addHighlight(IlrBRLAWTTextHighlighter.java:242)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextHighlighter.addErrorHighlight(IlrBRLAWTTextHighlighter.java:233)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextEditor$7.run(IlrBRLAWTTextEditor.java:413)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at ilog.rules.ui.dialog.IlrJFaceDialogHook.show(IlrJFaceDialogHook.java:68)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTableViewController$DTDecisionTableActionController.editActionColumn(IlrDTDecisionTableViewController.java:1091)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTableViewController$DTDecisionTableActionController.editActionColumn(IlrDTDecisionTableViewController.java:1099)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTable.editColumnAction(IlrDTDecisionTable.java:1184)
+	at ilog.rules.dtable.ui.swing.IlrDTGenericTable$GenericTableHeader.performAction(IlrDTGenericTable.java:123)
+	at ilog.rules.ui.tabletree.swing.IlrTableHeaderUI$MouseActionHandler.mouseClicked(IlrTableHeaderUI.java:119)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:269)
+	at java.awt.Component.processMouseEvent(Component.java:6542)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+!ENTRY ilog.rules.studio.model.dt 4 4 2021-10-31 18:58:49.088
+!MESSAGE DT: exception raised by DT text editor
+!STACK 0
+javax.swing.text.BadLocationException: Invalid end offset
+	at javax.swing.text.DefaultHighlighter.addHighlight(DefaultHighlighter.java:121)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextHighlighter.addHighlight(IlrBRLAWTTextHighlighter.java:242)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextHighlighter.addErrorHighlight(IlrBRLAWTTextHighlighter.java:233)
+	at ilog.rules.brl.ui.text.editor.IlrBRLAWTTextEditor$7.run(IlrBRLAWTTextEditor.java:413)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at ilog.rules.ui.dialog.IlrJFaceDialogHook.show(IlrJFaceDialogHook.java:68)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTableViewController$DTDecisionTableActionController.editActionColumn(IlrDTDecisionTableViewController.java:1091)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTableViewController$DTDecisionTableActionController.editActionColumn(IlrDTDecisionTableViewController.java:1099)
+	at ilog.rules.dtable.ui.swing.IlrDTDecisionTable.editColumnAction(IlrDTDecisionTable.java:1184)
+	at ilog.rules.dtable.ui.swing.IlrDTGenericTable$GenericTableHeader.performAction(IlrDTGenericTable.java:123)
+	at ilog.rules.ui.tabletree.swing.IlrTableHeaderUI$MouseActionHandler.mouseClicked(IlrTableHeaderUI.java:119)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:269)
+	at java.awt.Component.processMouseEvent(Component.java:6542)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.884
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.885
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.886
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.888
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.892
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.894
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.895
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.896
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.901
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.902
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.904
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.905
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.911
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.913
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.914
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.915
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.921
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.922
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.923
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.925
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.930
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.931
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.932
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.933
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.938
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.939
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.941
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match
+
+!ENTRY ilog.rules.studio.model.brl 4 4 2021-10-31 18:59:52.942
+!MESSAGE Value renderer linked to value descriptor for key: ilog.rules.brl.value.renderer.IlrStringValueRenderer does not match

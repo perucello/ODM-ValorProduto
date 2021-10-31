@@ -1,9 +1,17 @@
 
 property loadGetterSetterAsProperties "true"
 property origin "xom:/DS_Produto//XOM_Produto"
-property uuid "51785638-97de-4dd3-a366-777310ebfe05"
+property uuid "05c313e2-d6d5-41a7-9e6a-f6d4c3d1034c"
 package com.educaciencia.odm;
 
+
+public class ExcecaoProduto
+{
+    public string garantiaProduto;
+    public double valorProduto;
+    public ExcecaoProduto(double arg1, string arg2);
+    public ExcecaoProduto();
+}
 
 public class RequestProduto
 {
@@ -16,7 +24,7 @@ public class RequestProduto
 
 public class ResponseProduto
 {
-    public string garantiaProduto;
+    public string status;
     public double valorProduto;
     public ResponseProduto(double arg1, string arg2);
     public ResponseProduto();

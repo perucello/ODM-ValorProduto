@@ -5,24 +5,19 @@
   <locale>pt_BR</locale>
   <definition><![CDATA[se 
 	o nome produto de requestProduto é o nome produto de requestProduto
-	ou o descricao produto de requestProduto é o descricao produto de requestProduto 
-	ou o fabricante produto de requestProduto é o fabricante produto de requestProduto  
+	e o descricao produto de requestProduto é o descricao produto de requestProduto 
+	e o fabricante produto de requestProduto é o fabricante produto de requestProduto  
 então 
 	atribuir o valor produto de responseProduto a o valor produto de responseProduto ; 
-	atribuir o garantia produto de responseProduto a o garantia produto de responseProduto ;  
+	atribuir o status de responseProduto a  o status de responseProduto ;  	
 	Apresentar "Nome do Produto: " + o nome produto de requestProduto ; 
-	Apresentar "Descrição:  " + o descricao produto de requestProduto ; 
-	Apresentar "Fabricante:  " + o fabricante produto de requestProduto ; 
 	Apresentar "Valor do Produto: " + o valor produto de responseProduto ;  
-	Apresentar "Garantia:  " + o garantia produto de responseProduto ; 
+	Apresentar "Status:  " + o status de responseProduto ;  
 senão 
 	atribuir o valor produto de responseProduto a o valor produto de responseProduto ; 
-	atribuir o garantia produto de responseProduto a o garantia produto de responseProduto ;
-	Apresentar "Nome do Produto: " + o nome produto de requestProduto ; 
-	Apresentar "Descrição:  " + o descricao produto de requestProduto ; 
-	Apresentar "Fabricante:  " + o fabricante produto de requestProduto ; 
-	Apresentar "Valor do Produto: R$ " + o valor produto de responseProduto ;  
-	Apresentar "Garantia: " + o garantia produto de responseProduto ; 
+	atribuir o status de responseProduto a  o status de responseProduto ;  	
+	Apresentar "Produto nao encontrado...";
+ 
 
 	    ]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

@@ -5,7 +5,7 @@
 <mapEntry key="requestProduto" value="function com.educaciencia.odm.RequestProduto get_requestProduto_value()"/>
 </mapAttribute>
 <mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_VALUES">
-<mapEntry key="requestProduto" value="com.educaciencia.odm.RequestProduto result = new com.educaciencia.odm.RequestProduto();&#10;result.nomeProduto = &quot;Notebook i5&quot;;&#10;result.fabricanteProduto = &quot;Lenovo&quot;;&#10;result.descricaoProduto = &quot;Informática&quot;;&#10;return result;&#10;"/>
+<mapEntry key="requestProduto" value="com.educaciencia.odm.RequestProduto result = new com.educaciencia.odm.RequestProduto();&#10;result.nomeProduto = &quot;Notebook i5&quot;;&#10;result.fabricanteProduto = &quot;Lenovo&quot;;&#10;result.descricaoProduto = &quot;Informática&quot;;&#10;return result;&#10;&#10;"/>
 </mapAttribute>
 <mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_NAMES">
 <mapEntry key="requestProduto" value="requestProduto"/>

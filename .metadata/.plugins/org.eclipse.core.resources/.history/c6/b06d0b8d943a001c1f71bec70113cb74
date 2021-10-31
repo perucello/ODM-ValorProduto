@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>RegraAção_ValidaFabricanteProduto</name>
+  <uuid>5ac3943e-7721-4ab9-8baa-deea253fb2ee</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	o nome produto de requestProduto é o nome produto de requestProduto
+então 
+	atribuir o valor produto de responseProduto a o valor produto de responseProduto ; 
+	atribuir o status de responseProduto a  o status de responseProduto ;  	
+	Apresentar "Nome do Produto: " + o nome produto de requestProduto ; 
+	Apresentar "Status:  " + o status de responseProduto ;  
+senão 
+	atribuir o valor produto de responseProduto a o valor produto de responseProduto ; 
+	atribuir o status de responseProduto a  o status de responseProduto ;  	
+	Apresentar "Status:  " + o status de responseProduto ;  
+	Apresentar "Produto nao encontrado...";
+ 
+
+	    
+	    ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

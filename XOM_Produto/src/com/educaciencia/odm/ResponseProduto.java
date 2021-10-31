@@ -3,17 +3,16 @@ package com.educaciencia.odm;
 public class ResponseProduto {
 
 	private double valorProduto;
-	private String garantiaProduto;
-	
+	private String status;
 
 	public ResponseProduto() {
 		super();
 	}
 
-	public ResponseProduto(double valorProduto, String garantiaProduto) {
+	public ResponseProduto(double valorProduto, String status) {
 		super();
 		this.valorProduto = valorProduto;
-		this.garantiaProduto = garantiaProduto;
+		this.status = status;
 	}
 
 	public double getValorProduto() {
@@ -24,12 +23,12 @@ public class ResponseProduto {
 		this.valorProduto = valorProduto;
 	}
 
-	public String getGarantiaProduto() {
-		return garantiaProduto;
+	public String getStatus() {
+		return status;
 	}
 
-	public void setGarantiaProduto(String garantiaProduto) {
-		this.garantiaProduto = garantiaProduto;
+	public void setStatus(String status) {
+		this.status = status;
 	}
 
 }

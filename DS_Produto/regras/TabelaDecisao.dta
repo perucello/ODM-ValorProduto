@@ -27,7 +27,7 @@
       <ActionDefinitions>
         <ActionDefinition Id="A0">
           <ExpressionDefinition>
-            <Text><![CDATA[atribuir o garantia produto de responseProduto a <uma cadeia>]]></Text>
+            <Text><![CDATA[atribuir o status de responseProduto a <uma cadeia>]]></Text>
           </ExpressionDefinition>
         </ActionDefinition>
         <ActionDefinition Id="A1">
@@ -56,7 +56,7 @@
                   <ActionSet>
                     <Action DefId="A0">
                       <Expression>
-                        <Param><![CDATA["1 ano"]]></Param>
+                        <Param><![CDATA["Cadastrado"]]></Param>
                       </Expression>
                     </Action>
                     <Action DefId="A1">
@@ -87,7 +87,7 @@
                   <ActionSet>
                     <Action DefId="A0">
                       <Expression>
-                        <Param><![CDATA["1 ano"]]></Param>
+                        <Param><![CDATA["Cadastrado"]]></Param>
                       </Expression>
                     </Action>
                     <Action DefId="A1">
@@ -118,7 +118,7 @@
                   <ActionSet>
                     <Action DefId="A0">
                       <Expression>
-                        <Param><![CDATA["6 meses"]]></Param>
+                        <Param><![CDATA["Cadastrado"]]></Param>
                       </Expression>
                     </Action>
                     <Action DefId="A1">
@@ -149,7 +149,7 @@
                   <ActionSet>
                     <Action DefId="A0">
                       <Expression>
-                        <Param><![CDATA["nao cadastrado"]]></Param>
+                        <Param><![CDATA["Não Cadastrado"]]></Param>
                       </Expression>
                     </Action>
                     <Action DefId="A1">
@@ -355,16 +355,16 @@
   </Body>
   <Resources DefaultLocale="pt_BR">
     <ResourceSet Locale="pt_BR">
-      <Data Name="Definitions(A0)#HeaderText"><![CDATA[Garantia do Produto]]></Data>
-      <Data Name="Definitions(A0)#Width"><![CDATA[180]]></Data>
+      <Data Name="Definitions(A0)#HeaderText"><![CDATA[Status]]></Data>
+      <Data Name="Definitions(A0)#Width"><![CDATA[193]]></Data>
       <Data Name="Definitions(A1)#HeaderText"><![CDATA[Valor do Produto]]></Data>
-      <Data Name="Definitions(A1)#Width"><![CDATA[179]]></Data>
+      <Data Name="Definitions(A1)#Width"><![CDATA[98]]></Data>
       <Data Name="Definitions(C0)#HeaderText"><![CDATA[Nome do Produto]]></Data>
-      <Data Name="Definitions(C0)#Width"><![CDATA[133]]></Data>
+      <Data Name="Definitions(C0)#Width"><![CDATA[108]]></Data>
       <Data Name="Definitions(C1)#HeaderText"><![CDATA[Descrição do Produto]]></Data>
-      <Data Name="Definitions(C1)#Width"><![CDATA[123]]></Data>
+      <Data Name="Definitions(C1)#Width"><![CDATA[104]]></Data>
       <Data Name="Definitions(C2)#HeaderText"><![CDATA[Fabricante]]></Data>
-      <Data Name="Definitions(C2)#Width"><![CDATA[119]]></Data>
+      <Data Name="Definitions(C2)#Width"><![CDATA[103]]></Data>
     </ResourceSet>
   </Resources>
 </DT>

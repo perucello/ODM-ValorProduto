@@ -1,0 +1,18 @@
+# Vocabulary Properties
+uuid = 3f52e812-e626-4931-914f-4572ace71d12
+
+# com.educaciencia.odm.RequestProduto
+com.educaciencia.odm.RequestProduto#concept.label = request produto
+com.educaciencia.odm.RequestProduto.descricaoProduto#phrase.action = atribuir o descricao produto {this,PARTITIVE_ARTICLE} a {descricao produto}
+com.educaciencia.odm.RequestProduto.descricaoProduto#phrase.navigation = {descricao produto} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.RequestProduto.fabricanteProduto#phrase.action = atribuir o fabricante produto {this,PARTITIVE_ARTICLE} a {fabricante produto}
+com.educaciencia.odm.RequestProduto.fabricanteProduto#phrase.navigation = {fabricante produto} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.RequestProduto.nomeProduto#phrase.action = atribuir o nome produto {this,PARTITIVE_ARTICLE} a {nome produto}
+com.educaciencia.odm.RequestProduto.nomeProduto#phrase.navigation = {nome produto} {this,PARTITIVE_ARTICLE}
+
+# com.educaciencia.odm.ResponseProduto
+com.educaciencia.odm.ResponseProduto#concept.label = response produto
+com.educaciencia.odm.ResponseProduto.garantiaProduto#phrase.action = atribuir o garantia produto {this,PARTITIVE_ARTICLE} a {garantia produto}
+com.educaciencia.odm.ResponseProduto.garantiaProduto#phrase.navigation = {garantia produto} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.ResponseProduto.valorProduto#phrase.action = atribuir o valor produto {this,PARTITIVE_ARTICLE} a {valor produto}
+com.educaciencia.odm.ResponseProduto.valorProduto#phrase.navigation = {valor produto} {this,PARTITIVE_ARTICLE}

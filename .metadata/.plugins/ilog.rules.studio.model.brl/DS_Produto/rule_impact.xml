@@ -1,56 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?><impactTables>
     <ruleTable>
         <vocElt id="com.educaciencia.odm.RequestProduto/fabricanteProduto/GETTER#0">
+            <rule id="5ac3943e-7721-4ab9-8baa-deea253fb2ee"/>
             <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.ResponseProduto/status/SETTER#0">
+            <rule id="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
+            <rule id="5ac3943e-7721-4ab9-8baa-deea253fb2ee"/>
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+            <rule id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8"/>
         </vocElt>
         <vocElt id="com.educaciencia.odm.RequestProduto">
+            <rule id="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
+            <rule id="5ac3943e-7721-4ab9-8baa-deea253fb2ee"/>
             <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
-        </vocElt>
-        <vocElt id="com.educaciencia.odm.ResponseProduto/garantiaProduto/GETTER#0">
-            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+            <rule id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8"/>
         </vocElt>
         <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/SETTER#0">
+            <rule id="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
+            <rule id="5ac3943e-7721-4ab9-8baa-deea253fb2ee"/>
             <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
-        </vocElt>
-        <vocElt id="com.educaciencia.odm.ResponseProduto/garantiaProduto/SETTER#0">
-            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+            <rule id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8"/>
         </vocElt>
         <vocElt id="com.educaciencia.odm.ResponseProduto">
+            <rule id="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
+            <rule id="5ac3943e-7721-4ab9-8baa-deea253fb2ee"/>
             <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+            <rule id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8"/>
         </vocElt>
         <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/GETTER#0">
+            <rule id="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
+            <rule id="5ac3943e-7721-4ab9-8baa-deea253fb2ee"/>
             <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+            <rule id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.ResponseProduto/status/GETTER#0">
+            <rule id="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
+            <rule id="5ac3943e-7721-4ab9-8baa-deea253fb2ee"/>
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+            <rule id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8"/>
         </vocElt>
         <vocElt id="com.educaciencia.odm.RequestProduto/nomeProduto/GETTER#0">
+            <rule id="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
             <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
         </vocElt>
         <vocElt id="com.educaciencia.odm.RequestProduto/descricaoProduto/GETTER#0">
             <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+            <rule id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8"/>
         </vocElt>
     </ruleTable>
     <vocTable>
-        <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2">
-            <vocElt id="com.educaciencia.odm.RequestProduto/fabricanteProduto/GETTER#0"/>
+        <rule id="524569a8-fdf1-4f76-aaf5-f4b5a7300487">
+            <vocElt id="com.educaciencia.odm.ResponseProduto/status/SETTER#0"/>
             <vocElt id="com.educaciencia.odm.RequestProduto"/>
-            <vocElt id="com.educaciencia.odm.ResponseProduto/garantiaProduto/GETTER#0"/>
             <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/SETTER#0"/>
-            <vocElt id="com.educaciencia.odm.ResponseProduto/garantiaProduto/SETTER#0"/>
             <vocElt id="com.educaciencia.odm.ResponseProduto"/>
             <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/status/GETTER#0"/>
             <vocElt id="com.educaciencia.odm.RequestProduto/nomeProduto/GETTER#0"/>
+        </rule>
+        <rule id="5ac3943e-7721-4ab9-8baa-deea253fb2ee">
+            <vocElt id="com.educaciencia.odm.RequestProduto/fabricanteProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/status/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.RequestProduto"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/status/GETTER#0"/>
+        </rule>
+        <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2">
+            <vocElt id="com.educaciencia.odm.RequestProduto/fabricanteProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/status/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.RequestProduto"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/status/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.RequestProduto/nomeProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.RequestProduto/descricaoProduto/GETTER#0"/>
+        </rule>
+        <rule id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8">
+            <vocElt id="com.educaciencia.odm.ResponseProduto/status/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.RequestProduto"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/status/GETTER#0"/>
             <vocElt id="com.educaciencia.odm.RequestProduto/descricaoProduto/GETTER#0"/>
         </rule>
     </vocTable>
     <ruleParamTable>
         <param id="requestProduto">
+            <rule id="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
+            <rule id="5ac3943e-7721-4ab9-8baa-deea253fb2ee"/>
             <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+            <rule id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8"/>
         </param>
         <param id="responseProduto">
+            <rule id="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
+            <rule id="5ac3943e-7721-4ab9-8baa-deea253fb2ee"/>
             <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+            <rule id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8"/>
         </param>
     </ruleParamTable>
     <paramTable>
+        <rule id="524569a8-fdf1-4f76-aaf5-f4b5a7300487">
+            <param id="requestProduto"/>
+            <param id="responseProduto"/>
+        </rule>
+        <rule id="5ac3943e-7721-4ab9-8baa-deea253fb2ee">
+            <param id="requestProduto"/>
+            <param id="responseProduto"/>
+        </rule>
         <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2">
+            <param id="requestProduto"/>
+            <param id="responseProduto"/>
+        </rule>
+        <rule id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8">
             <param id="requestProduto"/>
             <param id="responseProduto"/>
         </rule>
@@ -58,16 +124,26 @@
     <projectTable/>
     <variableTable>
         <param id="44384f17-8c9d-4c29-be4e-8df3a72b9786">
+            <rule id="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
+            <rule id="5ac3943e-7721-4ab9-8baa-deea253fb2ee"/>
             <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+            <rule id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8"/>
         </param>
     </variableTable>
     <ruleVocFileTable>
-        <vocFile file="/DS_Produto/bom/modelo_pt_BR.voc" id="3f52e812-e626-4931-914f-4572ace71d12">
+        <vocFile file="/DS_Produto/bom/modelo_pt_BR.voc" id="0a705b2e-b835-4244-82ed-962149c5c6a9">
+            <rule id="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
+            <rule id="5ac3943e-7721-4ab9-8baa-deea253fb2ee"/>
             <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+            <rule id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8"/>
         </vocFile>
     </ruleVocFileTable>
     <resourceTable>
         <resource file="/DS_Produto/regras/variaveis.var" id="44384f17-8c9d-4c29-be4e-8df3a72b9786"/>
+        <resource file="/DS_Produto/regras/RegraAção_nao_encontrado.brl" id="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
+        <resource file="/DS_Produto/regras/RegraAção_ValidaDescricaoProduto.brl" id="56e43cf3-974e-4684-9b6e-4f9253d5bdc8"/>
+        <resource file="/DS_Produto/regras/RegraAção_ValidaNomeProduto.brl" id="524569a8-fdf1-4f76-aaf5-f4b5a7300487"/>
         <resource file="/DS_Produto/regras/RegraAção.brl" id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        <resource file="/DS_Produto/regras/RegraAção_ValidaFabricanteProduto.brl" id="5ac3943e-7721-4ab9-8baa-deea253fb2ee"/>
     </resourceTable>
 </impactTables>
