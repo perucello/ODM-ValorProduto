@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>variaveis</name>
+  <uuid>44384f17-8c9d-4c29-be4e-8df3a72b9786</uuid>
+  <variables name="requestProduto" type="com.educaciencia.odm.RequestProduto" initialValue="" verbalization="requestProduto"/>
+  <variables name="responseProduto" type="com.educaciencia.odm.ResponseProduto" initialValue="new com.educaciencia.odm.ResponseProduto()" verbalization="responseProduto"/>
+</ilog.rules.studio.model.base:VariableSet>

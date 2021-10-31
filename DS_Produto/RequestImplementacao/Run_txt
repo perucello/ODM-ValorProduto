@@ -1,0 +1,5 @@
+com.educaciencia.odm.RequestProduto result = new com.educaciencia.odm.RequestProduto();
+result.nomeProduto = "Notebook i5";
+result.fabricanteProduto = "Lenovo";
+result.descricaoProduto = "Informática";
+return result;

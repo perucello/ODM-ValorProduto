@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.educaciencia.odm.RequestProduto/fabricanteProduto/GETTER#0">
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.RequestProduto">
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.ResponseProduto/garantiaProduto/GETTER#0">
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/SETTER#0">
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.ResponseProduto/garantiaProduto/SETTER#0">
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.ResponseProduto">
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/GETTER#0">
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.RequestProduto/nomeProduto/GETTER#0">
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.RequestProduto/descricaoProduto/GETTER#0">
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2">
+            <vocElt id="com.educaciencia.odm.RequestProduto/fabricanteProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.RequestProduto"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/garantiaProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/garantiaProduto/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto"/>
+            <vocElt id="com.educaciencia.odm.ResponseProduto/valorProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.RequestProduto/nomeProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.RequestProduto/descricaoProduto/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="requestProduto">
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </param>
+        <param id="responseProduto">
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2">
+            <param id="requestProduto"/>
+            <param id="responseProduto"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="44384f17-8c9d-4c29-be4e-8df3a72b9786">
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/DS_Produto/bom/modelo_pt_BR.voc" id="3f52e812-e626-4931-914f-4572ace71d12">
+            <rule id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/DS_Produto/regras/variaveis.var" id="44384f17-8c9d-4c29-be4e-8df3a72b9786"/>
+        <resource file="/DS_Produto/regras/RegraAção.brl" id="1c48933d-a0ed-47a6-9047-19b2aa2c30e2"/>
+    </resourceTable>
+</impactTables>

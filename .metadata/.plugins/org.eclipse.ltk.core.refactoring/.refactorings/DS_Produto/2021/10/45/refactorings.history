@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DS_Produto/regras/RegaAção.brl&apos; to &apos;RegraAção.brl&apos;" description="Rename resource &apos;RegaAção.brl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="regras/RegaAção.brl" name="RegraAção.brl" stamp="1635703842340" updateReferences="true"/>
+</session>

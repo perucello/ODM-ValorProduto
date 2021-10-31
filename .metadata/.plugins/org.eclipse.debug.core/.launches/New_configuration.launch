@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.ibm.rules.studio.decisionservice.launching.DecisionOperation">
+<stringAttribute key="com.ibm.rules.studio.decisionservice.ui.OPERATION_PATH" value="/DS_Produto/implementação/operacaoDecisaoProduto"/>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_SIGN">
+<mapEntry key="requestProduto" value="function com.educaciencia.odm.RequestProduto get_requestProduto_value()"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_VALUES">
+<mapEntry key="requestProduto" value="com.educaciencia.odm.RequestProduto result = new com.educaciencia.odm.RequestProduto();&#10;result.nomeProduto = &quot;Notebook i5&quot;;&#10;result.fabricanteProduto = &quot;Lenovo&quot;;&#10;result.descricaoProduto = &quot;Informática&quot;;&#10;return result;&#10;"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_NAMES">
+<mapEntry key="requestProduto" value="requestProduto"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_SIMPLE_VALUES">
+<mapEntry key="requestProduto" value=""/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_TYPES">
+<mapEntry key="requestProduto" value="2"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/DS_Produto"/>
+<listEntry value="/DS_Produto"/>
+<listEntry value="/DS_Produto/implementação/operacaoDecisaoProduto.dop"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+<listEntry value="4"/>
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="DS_Produto"/>
+</launchConfiguration>
